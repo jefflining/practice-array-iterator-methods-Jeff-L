@@ -6,7 +6,7 @@ cities.forEach((city, index, array) => {
 
 console.log(cities);
 
-// This output is an array containing 5 of my favorite cities in uppercase 
+// Output: ['CHICAGO', 'NEW YORK', 'ROME', 'PARIS', 'DALLAS']
 
 
 let numbers = [1, 2, 3, 4, 5];
@@ -15,7 +15,7 @@ let squares = numbers.map(num => num * num);
 
 console.log(squares);
 
-// This is output is an array containing the squares of each number in the original array.
+// Output: [1, 4, 9, 16, 25]
 
 
 let scores = [85, 42, 90, 75, 30, 100];
@@ -24,7 +24,7 @@ highScores = scores.filter(score => score >= 80);
 
 console.log(highScores);
 
-// This output is an array of all the scores greater than or equal to 80 in the original array.
+// Output: [85, 90, 100] 
 
 let fovoriteFood = ["Pizza", "Pasta", "Hamburger", "Spachetti", "Lasagna", "Salade"];
 
